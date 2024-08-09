@@ -9,7 +9,7 @@ import "./api/server";
 
 import "./index.css";
 
-store.dispatch(fetchTodos);
+store.dispatch(fetchTodos());
 
 ReactDOM.render(
 	<React.StrictMode>
